@@ -1,0 +1,13 @@
+site_name: Cancer Prediction
+site_url: https://github.com/tomdrever/cancer-prediction-td14
+repo_url: https://github.com/tomdrever/cancer-prediction-td14
+nav:
+  - Home: index.md
+  - cancer-prediction:
+    - cancer model: cancer_prediction/cancer_model.md
+    - streamlit app: cancer_prediction/streamlit_app.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for file changes

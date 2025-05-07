@@ -13,7 +13,7 @@ def __version__():
 
 @app.command()
 def run():
-    sys.argv = ["streamlit", "run", "cancer_prediction/streamlit_app.py"]
+    sys.argv = ["streamlit", "run", "src/cancer_prediction_td14/streamlit_app.py"]
     sys.exit(stcli.main())
 
 
